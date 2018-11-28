@@ -1,5 +1,5 @@
 
-Proteines <- read.table("C:/Users/brend/Documents/Proteines.csv", 
+Proteines <- read.table("Directory/Proteines.csv", 
   header=TRUE, sep=";", na.strings="NA", dec=".", row.names=1, 
   strip.white=TRUE)
 Proteines.PCA<-Proteines[, c("v_rouge", "v_blanche", "oeufs", "lait", 
